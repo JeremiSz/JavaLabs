@@ -1,4 +1,4 @@
-package LabSheet3;
+package labSheet3;
 
 public class computerE2 {
     private String manufacturer;

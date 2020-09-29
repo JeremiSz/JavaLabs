@@ -1,4 +1,4 @@
-package LabSheet2;
+package labSheet2;
 
 import javax.swing.*;
 

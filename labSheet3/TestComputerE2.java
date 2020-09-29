@@ -1,4 +1,4 @@
-package LabSheet3;
+package labSheet3;
 
 import javax.swing.*;
 
