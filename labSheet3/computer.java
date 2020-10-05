@@ -34,7 +34,7 @@ public class computer {
         return RAM;
     }
 
-    public String getManufacturer() {
+    String getManufacturer() {
         return manufacturer;
     }
 
