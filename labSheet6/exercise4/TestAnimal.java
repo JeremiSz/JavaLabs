@@ -15,12 +15,10 @@ public class TestAnimal {
         Animal animal1 = new Animal();
         animal1.setType("Gorilla");
         animal1.setWeight(250);
-
-        String lionContinents[] = {"Africa","Asia"}; //initialise an array of strings
-
+        
         //tests 4-arg constructor and the 4 mutator methods
         System.out.println("\nCalling the 4-argument constructor to create a lion object....");
-        Animal animal2  = new Animal("Lion",lionContinents,200,40);
+        Animal animal2  = new Animal("Lion",new String[]{"Africa","Asia"},200,40);
 
         System.out.println("\nCalling the 4-argument constructor to create a rat object....");
         Animal animal3  = new Animal("Rat",new String[]{"Europe","America","Africa","Asia"},0.2,5);
